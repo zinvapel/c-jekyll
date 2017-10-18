@@ -1,5 +1,3 @@
-[Назад][prev]
-
 # Установка и настройка
 
 ## Что такое Jekyll
@@ -105,4 +103,4 @@ jekyll serve
 [yfm]: #
 
 [prev]: index.md
-[next]: #
+[next]: configuration.md
