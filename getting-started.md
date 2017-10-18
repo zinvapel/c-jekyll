@@ -84,12 +84,25 @@ jekyll serve
 ├── .jekyll-metadata
 └── index.html
 ```
+В кратце про каждый пункт:
+- \__config.yml - конфигурационный файл
+- \_drafts - неопубликованные посты
+- \_includes - части страниц, которые можно будет испортировать с помощью [Liquid]
+- \_layouts - шаблоны для обертки вокруг постов, содержат liquid тэг `{{ content }}`
+- \_posts - сами посты в формате `YEAR-MONTH-DAY-title.MARKUP`
+- \_data - все данные сайта хранятся здесь в форматах `.yml, .yaml, .json, .csv` и доступны через `site.data.filename`
+- \_sass - все часть SASS файлов, которые могут быть импортированы в `main.scss` и использованы на сайте
+- \_site - директория с сгенерированным сайтом (как правило находится под .gitignore)
+- .jekyll-metadata - помогает jekyll понимать что было сгенерировано (также как правило находится под .gitignore)
+- index.html или index.md - все файлы, которые имеют секцию [YAML Front Matter][yfm] будут трансформированы с помощью Jekyll
+- Прочие файлы будут перенесены в директорию с сайтом как есть.
 
 [Liquid]: #
 [jekyll]: https://jekyllrb.com/docs
 [Ruby]: #
 [RubyGems]: #
 [jekyll-theme]: #
+[yfm]: #
 
 [prev]: index.md
 [next]: #
