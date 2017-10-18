@@ -9,6 +9,8 @@
 - [Кастомизация][3]
 - [Деплой][4]
 
+[jekyll]: https://jekyllrb.com/docs
+
 [0]: #
 [1]: getting-started.md
 [2]: #

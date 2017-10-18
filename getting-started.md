@@ -91,5 +91,5 @@ jekyll serve
 [RubyGems]: #
 [jekyll-theme]: #
 
-[prev]: README.md
+[prev]: index.md
 [next]: #
