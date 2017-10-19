@@ -11,6 +11,7 @@ title: Предисловие
   - [Front Matter]({{ site.baseurl }}/2017/10/19/front-matter.html)
   - [Создание постов]({{ site.baseurl }}/2017/10/19/post-writing.html)
   - [Создание страниц]({{ site.baseurl }}/2017/10/19/page-creating.html)
+  - [Переменные]({{ site.baseurl }}/2017/10/19/variables.html)
 - [Кастомизация][3]
 - [Деплой][4]
 
