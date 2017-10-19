@@ -1,0 +1,13 @@
+title: Разбираюсь с «Jekyll»
+email: zinvapel@icloud.com
+description: ""
+baseurl: "/rzb-jekyll"
+url: "zinvapel.github.io"
+twitter_username: zinvapel
+github_username:  zinvapel
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
