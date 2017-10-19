@@ -1,6 +1,7 @@
-title: Разбираюсь с «Jekyll»
+title: Конспект «Jekyll»
 email: zinvapel@icloud.com
 description: ""
+excerpt_separator: <!--more-->
 baseurl: "/rzb-jekyll"
 url: "zinvapel.github.io"
 twitter_username: zinvapel
