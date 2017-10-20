@@ -24,7 +24,19 @@ title: Переменные
 - `site.url` - URL сайта
 - `site.[CONFIGURATION_DATA]` - любая опция из `_config.yml`
 
-- `NOT ENDED` -
+## Переменные страницы
+- `page.content` - содержимое страницы
+- `page.title` - заголовок
+- `page.excerpt` - часть страницы
+- `page.url` - URL страницы /2017/10/...
+- `page.date` - дата создания поста
+- `page.id` - идентификатор в коллекции
+- `page.categories` - массив категорий
+- `page.tags` - массив тегов
+- `page.path` - путь до страницы
+- `page.next` - следующая страница в массиве `site.posts`
+- `page.previous` - предыдущая страница в массиве `site.posts`
+- `page.[FRONT_MATTER_DATA]` - любая опция из [Front Matter][ymf]
 
 [ymf]: {{ site.baseurl }}/2017/10/19/front-matter.html
 [liquid]: #
