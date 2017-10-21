@@ -2,7 +2,9 @@
 layout: post
 title: Установка и настройка
 category: main
-tag: index-category
+tags:
+  - index-category
+  - getting-started
 ---
 ## Что такое Jekyll
 Jekyll - это простой генератор статический сайтов. Jekyll позволяет хранить страницы в конвертируемом формате, таким как Markdown, или же использовать [Liquid]. Это позволяет использовать его для создания блогов, так Jekyll использует GitHub Pages.

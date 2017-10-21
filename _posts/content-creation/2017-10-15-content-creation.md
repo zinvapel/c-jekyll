@@ -2,7 +2,9 @@
 layout: page
 title: Создание контента
 category: content-creation
-tag: index-category
+tags:
+  - index-category
+  - content-creation
 ---
 
 Существует несколько типов контента в Jekyll, некоторые из них описаны в этом разделе.

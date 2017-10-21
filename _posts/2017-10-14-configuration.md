@@ -2,7 +2,9 @@
 layout: post
 title: Конфигурация
 category: main
-tag: index-category
+tags:
+  - index-category
+  - configuration
 ---
 Jekyll позволяет гибко конфигурировать сайт. Опция для конфигурации определяются через файл `_config.yml`.
 <!--more-->

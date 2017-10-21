@@ -7,17 +7,25 @@ title: Предисловие
 ## Содержание
 - [Установка и настройка][1]
 - [Конфигурация][1a]
-- [Создание контента]({{ site.baseurl }}/content-creation/content-creation/)  
+- [Создание контента][1b]  
 {% for post in site.categories['content-creation'] reversed %}{% unless post.tags contains 'index-category' %}  - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endunless %}{% endfor %}
 - [Кастомизация][3]
 - [Деплой][4]
 
+{% comment %}
+========================
+{% endcomment %}
+{% assign getting_started =  site.tags['getting-started'] | first %}
+{% assign configuration =  site.tags['configuration'] | first %}
+{% assign content_creation =  site.tags['content-creation'] | first %}
+
 [jekyll]: https://jekyllrb.com/docs
 
 [0]: #
-[1]: {{ site.baseurl }}/main/getting-started/
-[1a]: {{ site.baseurl }}/main/configuration/
+[1]: {{ site.baseurl }}{{ getting_started.url }}
+[1a]: {{ site.baseurl }}{{ configuration.url }}
+[1b]: {{ site.baseurl }}{{ content_creation.url }}
 [2]: #
 [3]: #
 [4]: #
