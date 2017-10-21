@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Создание страниц
+category: content-creation
 ---
 
 ## Страницы
@@ -39,4 +40,4 @@ defaults:
 ```
 
 [ymf]: {{ site.baseurl }}/2017/10/19/front-matter.html
-[liquid]: #
+[liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers

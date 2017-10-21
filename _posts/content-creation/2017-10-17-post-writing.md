@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Создание постов
+category: content-creation
 ---
 Все посты хранятся в папке `_posts`, они обязательно должны иметь [Front Matter][ymf]. Они могут быть написаны на различных языках разметки, но «из коробки» оступны Markdown и HTML.
 
@@ -73,4 +74,4 @@ class Number
 Отложенные посты хранятся в `_drafts`, по сути - это посты без даты. Чтобы посмотреть как сайт будет выглядеть с этими постами можно использовать опцию `--drafts` при сборке.
 
 [ymf]: {{ site.baseurl }}/2017/10/19/front-matter.html
-[liquid]: #
+[liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers

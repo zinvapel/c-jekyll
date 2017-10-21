@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Переменные
+category: content-creation
 ---
 ## Глобальные переменные
 - `site` - информация о сайте, в том числе из `_config.yml`
@@ -39,4 +40,4 @@ title: Переменные
 - `page.[FRONT_MATTER_DATA]` - любая опция из [Front Matter][ymf]
 
 [ymf]: {{ site.baseurl }}/2017/10/19/front-matter.html
-[liquid]: #
+[liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers

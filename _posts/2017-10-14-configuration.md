@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Конфигурация
+category: main
+tag: index-category
 ---
 Jekyll позволяет гибко конфигурировать сайт. Опция для конфигурации определяются через файл `_config.yml`.
 <!--more-->
@@ -96,5 +98,5 @@ type: "TYPE" # Тип контента pages, posts, drafts или коллек�
 Jekyll позволяет кастомизировать еще больше - настройки процессора Markdown, директории с шаблонами, опции [Liquid]
 
 [classifier-reborn]: http://www.classifier-reborn.com/
-[Liquid]: #
+[Liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 [yfm]: {{ site.baseurl }}/2017/10/19/front-matter.html

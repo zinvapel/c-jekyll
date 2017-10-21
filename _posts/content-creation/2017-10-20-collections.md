@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Коллекции
+category: content-creation
 ---
 
 Коллекции представляют следующий тип отображений в Jekyll. Посты и страницы являются коллекциями. Jekyll предоставляет возможность создавать собственные коллекции.
@@ -93,4 +94,4 @@ output: false
 ```
 
 [ymf]: {{ site.baseurl }}/2017/10/19/front-matter.html
-[liquid]: #
+[liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers

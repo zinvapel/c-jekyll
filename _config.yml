@@ -7,6 +7,8 @@ url: "zinvapel.github.io"
 twitter_username: zinvapel
 github_username:  zinvapel
 
+permalink: /:categories/:title
+
 # Build settings
 markdown: kramdown
 theme: minima

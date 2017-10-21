@@ -7,12 +7,9 @@ title: Предисловие
 ## Содержание
 - [Установка и настройка][1]
 - [Конфигурация][1a]
-- Создание контента
-  - [Front Matter]({{ site.baseurl }}/2017/10/19/front-matter.html)
-  - [Создание постов]({{ site.baseurl }}/2017/10/19/post-writing.html)
-  - [Создание страниц]({{ site.baseurl }}/2017/10/19/page-creating.html)
-  - [Переменные]({{ site.baseurl }}/2017/10/20/variables.html)
-  - [Коллекции]({{ site.baseurl }}/2017/10/20/collections.html)
+- [Создание контента]({{ site.baseurl }}/content-creation/content-creation.html)  
+{% for post in site.categories['content-creation'] reversed %}{% unless post.tags contains 'index-category' %}  - [{{ post.title }}]({{ post.url | absolute_url }})
+{% endunless %}{% endfor %}
 - [Кастомизация][3]
 - [Деплой][4]
 
