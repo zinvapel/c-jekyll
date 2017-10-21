@@ -73,5 +73,5 @@ class Number
 
 Отложенные посты хранятся в `_drafts`, по сути - это посты без даты. Чтобы посмотреть как сайт будет выглядеть с этими постами можно использовать опцию `--drafts` при сборке.
 
-[ymf]: {{ site.baseurl }}/2017/10/19/front-matter.html
+[ymf]: {{ site.baseurl }}/content-creation/front-matter/
 [liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers

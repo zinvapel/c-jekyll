@@ -7,8 +7,8 @@ title: Предисловие
 ## Содержание
 - [Установка и настройка][1]
 - [Конфигурация][1a]
-- [Создание контента]({{ site.baseurl }}/content-creation/content-creation.html)  
-{% for post in site.categories['content-creation'] reversed %}{% unless post.tags contains 'index-category' %}  - [{{ post.title }}]({{ post.url | absolute_url }})
+- [Создание контента]({{ site.baseurl }}/content-creation/content-creation/)  
+{% for post in site.categories['content-creation'] reversed %}{% unless post.tags contains 'index-category' %}  - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endunless %}{% endfor %}
 - [Кастомизация][3]
 - [Деплой][4]
@@ -16,8 +16,8 @@ title: Предисловие
 [jekyll]: https://jekyllrb.com/docs
 
 [0]: #
-[1]: {{ site.baseurl }}/2017/10/19/getting-started.html
-[1a]: {{ site.baseurl }}/2017/10/19/configuration.html
+[1]: {{ site.baseurl }}/main/getting-started/
+[1a]: {{ site.baseurl }}/main/configuration/
 [2]: #
 [3]: #
 [4]: #

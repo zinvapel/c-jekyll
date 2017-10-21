@@ -99,4 +99,4 @@ Jekyll позволяет кастомизировать еще больше - �
 
 [classifier-reborn]: http://www.classifier-reborn.com/
 [Liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
-[yfm]: {{ site.baseurl }}/2017/10/19/front-matter.html
+[yfm]: [ymf]: {{ site.baseurl }}/content-creation/front-matter/

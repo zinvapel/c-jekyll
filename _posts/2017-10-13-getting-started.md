@@ -100,12 +100,14 @@ jekyll serve
 - index.html или index.md - все файлы, которые имеют секцию [YAML Front Matter][yfm] будут трансформированы с помощью Jekyll
 - Прочие файлы будут перенесены в директорию с сайтом как есть.
 
+
+
 [Liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 [jekyll]: https://jekyllrb.com/docs
 [Ruby]: #
 [RubyGems]: #
 [jekyll-theme]: #
-[yfm]: {{ site.baseurl }}/2017/10/19/front-matter.html
+[yfm]: [ymf]: {{ site.baseurl }}/content-creation/front-matter/
 
 [prev]: index.md
 [next]: configuration.md
