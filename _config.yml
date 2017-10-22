@@ -15,4 +15,13 @@ theme: minima
 plugins:
   - jekyll-feed
 future: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default-post"
+      author: "zinvapel"
 # highlighter: pygments does not support by GitHub Pages

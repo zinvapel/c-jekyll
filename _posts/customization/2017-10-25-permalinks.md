@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Генерация ссылок
 category: customization
 ---

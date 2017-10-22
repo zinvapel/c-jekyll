@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Создание постов
 category: content-creation
 ---

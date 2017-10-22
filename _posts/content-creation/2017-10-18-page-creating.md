@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Создание страниц
 category: content-creation
 ---

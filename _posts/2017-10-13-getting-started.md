@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Установка и настройка
 category: main
 tags:

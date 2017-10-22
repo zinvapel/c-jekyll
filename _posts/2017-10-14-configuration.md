@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Конфигурация
 category: main
 tags:

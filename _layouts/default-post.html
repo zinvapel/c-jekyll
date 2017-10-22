@@ -1,0 +1,15 @@
+---
+layout: post
+---
+{{ content }}
+
+{% if page.previous %}
+<div class="previous" style="float: left;">
+    &#8592; <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
+</div>
+{% endif %}
+{% if page.next %}
+<div class="next" style="float: right;">
+    <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a> &#8594;
+</div>
+{% endif %}

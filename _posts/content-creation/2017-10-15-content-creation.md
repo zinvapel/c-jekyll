@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Создание контента
 category: content-creation
 tags:

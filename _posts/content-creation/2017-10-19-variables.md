@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Переменные
 category: content-creation
 ---
