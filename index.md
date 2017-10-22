@@ -8,24 +8,24 @@ title: Предисловие
 - [Установка и настройка][1]
 - [Конфигурация][1a]
 - [Создание контента][1b]  
-{% for post in site.categories['content-creation'] reversed %}{% unless post.tags contains 'index-category' %}  - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+{% for post in site.categories['content-creation'] reversed %}{% unless post.tags contains 'index-category' %}  - [{{ post.title }}]({{ post.url | relative_url }})
 {% endunless %}{% endfor %}
-- [Кастомизация][3]
+- [Кастомизация][3]  
+{% for post in site.categories['customization'] reversed %}{% unless post.tags contains 'index-category' %}  - [{{ post.title }}]({{ post.url | relative_url }})
+{% endunless %}{% endfor %}
 - [Деплой][4]
 
-{% comment %}
-========================
-{% endcomment %}
 {% assign getting_started =  site.tags['getting-started'] | first %}
 {% assign configuration =  site.tags['configuration'] | first %}
 {% assign content_creation =  site.tags['content-creation'] | first %}
+{% assign customization =  site.tags['customization'] | first %}
 
 [jekyll]: https://jekyllrb.com/docs
 
 [0]: #
-[1]: {{ site.baseurl }}{{ getting_started.url }}
-[1a]: {{ site.baseurl }}{{ configuration.url }}
-[1b]: {{ site.baseurl }}{{ content_creation.url }}
+[1]: {{ getting_started.url | relative_url }}
+[1a]: {{ configuration.url | relative_url }}
+[1b]: {{ content_creation.url | relative_url }}
 [2]: #
-[3]: #
+[3]: {{ customization.url | relative_url }}
 [4]: #

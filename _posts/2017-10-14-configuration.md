@@ -37,8 +37,8 @@ Jekyll позволяет гибко конфигурировать сайт. О
 |  | `-V, --verbose`| Детальный вывод |
 |  | `-q, --quiet`| Минимальный вывод |
 | incremental: BOOL | `-I, --incremental`| Включение инкрементальной сборки. Собираются только посты, которые были изменены |
-| profile: BOOL | --profile | Включить отладку [Liquid] |
-| strict_front_matter: BOOL | --strict_front_matter | Билд завершится ошибкой, если синтаксис неправильный в [YAML Front Matter][yfm] |
+| profile: BOOL | `--profile` | Включить отладку [Liquid] |
+| strict_front_matter: BOOL | `--strict_front_matter` | Билд завершится ошибкой, если синтаксис неправильный в [YAML Front Matter][yfm] |
 
 
 ### Настройки встроенного сервера
