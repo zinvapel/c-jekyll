@@ -40,5 +40,5 @@ defaults:
 {% endraw %}
 ```
 
-[ymf]: {{ site.baseurl }}/content-creation/front-matter/
+[ymf]: {{ site.baseurl }}{% post_url content-creation/2017-10-16-front-matter %}
 [liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
