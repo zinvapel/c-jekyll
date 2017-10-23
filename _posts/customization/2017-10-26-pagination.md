@@ -29,4 +29,4 @@ Jekyll запишет первые 5 постов в `/blog/index.html`, сле�
 - `next_page` - следующая страница пагинации или nil
 - `next_page_path` -  путь до следующей страницы пагинации
 
-[yml]: {{ site.baseurl }}{% post_url 2017-10-16-front-matter %}
+[yml]: {{ site.baseurl }}{% post_url content-creation/2017-10-16-front-matter %}
