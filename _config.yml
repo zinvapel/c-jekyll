@@ -17,6 +17,7 @@ plugins:
 future: true
 exclude:
   - README.md
+  - vendor/
 
 defaults:
   -
@@ -26,4 +27,8 @@ defaults:
     values:
       layout: "default-post"
       author: "zinvapel"
+      comments: true
+
+disqus:
+  shortname: c-jekyll
 # highlighter: pygments does not support by GitHub Pages

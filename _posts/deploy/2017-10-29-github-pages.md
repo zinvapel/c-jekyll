@@ -60,6 +60,7 @@ bundle update
   - Самый простой тест, который мы можем выполнить - это запустить `jekyll build` и проверить, что сайт собрался
   - Чтобы проверить что именно там собралось удобно использовать [html-proofer](https://github.com/gjtorikian/html-proofer), который проверяет, что все ссылки и изображения существуют
   - Создадим скрипт проверки `./script/build`
+
 ```bash
 #!/usr/bin/env bash
 set -e # halt script on error
@@ -67,6 +68,7 @@ set -e # halt script on error
 bundle exec jekyll build --baseurl '' # Сайт не генерируется как часть другого
 bundle exec htmlproofer --disable-external --assume-extension --url-ignore '#' ./_site # Добавляем .html к ссылкам, пропускаем #
 ```
+
 - Конфигурируем Travis build. Travis автоматически подтянет зависимости из Gemfile
 - `.travis.yml` должен выглядеть так:
 
