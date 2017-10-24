@@ -1,6 +1,7 @@
 ---
 title: Деплой
 category: deploy
+tag: index-category
 ---
 
 <style>
