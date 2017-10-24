@@ -38,5 +38,5 @@ category: content-creation
 - `page.previous` - предыдущая страница в массиве `site.posts`
 - `page.[FRONT_MATTER_DATA]` - любая опция из [Front Matter][ymf]
 
-[ymf]: {{ site.baseurl }}/content-creation/front-matter/
+[ymf]: {{ site.baseurl }}/content-creation/front-matter
 [liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers

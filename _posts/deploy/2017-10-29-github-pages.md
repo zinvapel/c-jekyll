@@ -64,8 +64,8 @@ bundle update
 #!/usr/bin/env bash
 set -e # halt script on error
 
-bundle exec jekyll build
-bundle exec htmlproofer ./_site --disable-external
+bundle exec jekyll build --baseurl '' # Сайт не генерируется как часть другого
+bundle exec htmlproofer --disable-external --assume-extension --url-ignore '#' ./_site # Добавляем .html к ссылкам, пропускаем #
 ```
 - Конфигурируем Travis build. Travis автоматически подтянет зависимости из Gemfile
 - `.travis.yml` должен выглядеть так:
@@ -91,4 +91,4 @@ env:
 sudo: false # Доступ суперпользователя нам не нужен
 ```
 
-На этом всё. 
+На этом всё.

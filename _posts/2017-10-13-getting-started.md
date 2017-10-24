@@ -110,7 +110,7 @@ jekyll serve
 [Ruby]: #
 [RubyGems]: #
 [jekyll-theme]: #
-[yfm]: [ymf]: {{ site.baseurl }}/content-creation/front-matter/
+[yfm]: {{ site.baseurl }}/content-creation/front-matter
 
 [prev]: index.md
 [next]: configuration.md

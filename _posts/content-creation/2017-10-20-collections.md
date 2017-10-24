@@ -92,5 +92,5 @@ output: false
 ---
 ```
 
-[ymf]: {{ site.baseurl }}/content-creation/front-matter/
+[ymf]: {{ site.baseurl }}/content-creation/front-matter
 [liquid]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
