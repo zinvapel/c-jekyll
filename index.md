@@ -28,4 +28,4 @@ title: Предисловие
 [1b]: {{ content_creation.url | relative_url }}
 [2]: #
 [3]: {{ customization.url | relative_url }}
-[4]: #
+[4]: {{ site.baseurl }}{% post_url deploy/2017-10-29-github-pages %}
